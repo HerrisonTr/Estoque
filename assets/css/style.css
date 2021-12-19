@@ -1,0 +1,33 @@
+.body {
+    width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    background-color:#BBCFF4 ;
+}
+
+.content {
+    min-height: 91vh;
+    margin:0 auto;
+    width: 90%;
+    background-color: white;
+}
+
+.row-action{
+    margin:0;
+    padding:0;
+}
+.my-btn{
+    border-radius: 2px;
+    width: 7em ;
+    margin: 10px 10px; 
+}
+
+.table-mCategoria{
+    margin-top: 30px!important;
+}
+
+.form-entrada{
+    border: ridge 2px black;
+    width: 100%;
+    margin:0 auto;
+}
