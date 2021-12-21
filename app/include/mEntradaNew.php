@@ -8,7 +8,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form class="" action="include/gEntrada.php" method="POST">  
+                    <form id="form-entrada" enctype='multipart/form-data' action="include/gEntrada.php" method="POST">  
                     <div class="form-row">
                         <div class="form-group col-md-4">
                             <label for="nome">Nome</label>
@@ -54,15 +54,16 @@
                             <input type="text" name="obs" class="form-control" id="obs">
                         </div>
                         <label> Doc. </label>
-                        <div class="form-group col-md-12">
-                            <input type="file" name="filefield" multiple="multiple"> 
+                        <div class="custom-file">
+                            <input type="file" name="doc" class="custom-file-input" id="customFile">
+                            <label class="custom-file-label" for="customFile">Choose file</label>
                         </div>
                     </div>
                 </form>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
-                <button type="submit" class="btn btn-primary">Cadastrar</button>
+                <button type="submit" form="form-entrada" name="cadEntrada" class="btn btn-success">Cadastrar</button>
             </div>
         </div>
     </div>

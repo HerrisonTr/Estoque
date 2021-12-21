@@ -9,7 +9,7 @@
         <title>Sistema de estoque</title>
     </head>
     <body>
-
+        <a href="<?php echo __DIR__.'teste';?>"> teste</a>
 
 
         <!--jquery-->

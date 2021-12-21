@@ -18,10 +18,10 @@
             <div class="content"> 
                 <div class="action"> 
                     <div class="row row-action">
-                        <button class="btn btn-outline-success my-btn" type="button" data-toggle="modal" data-target="#modalEntrada"> Entrada </button>
-                        <button class="btn btn-outline-danger my-btn"> Saida </button>
-                        <button class="btn btn-outline-info my-btn"> Estoque </button>
-                        <button class="btn btn-outline-primary my-btn" type="button" data-toggle="modal" data-target="#modalCategoria"> Categoria </button>
+                        <button class="btn btn-success my-btn" type="button" data-toggle="modal" data-target="#modalEntrada"> Entrada </button>
+                        <button class="btn btn-danger my-btn"> Saida </button>
+                        <button class="btn btn-info my-btn"> Estoque </button>
+                        <button class="btn btn-primary my-btn" type="button" data-toggle="modal" data-target="#modalCategoria"> Categoria </button>
                     </div>
                 </div>
             </div>
